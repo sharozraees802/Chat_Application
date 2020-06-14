@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import querystring from "query-string";
+import io from 'socket.io-client';
 //import './Chat.css';
 
 const Chat = () => {
